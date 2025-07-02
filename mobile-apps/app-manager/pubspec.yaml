@@ -1,0 +1,68 @@
+name: hungerz_store
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.7+8
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  flutter_phoenix: ^1.0.0
+  country_code_picker: ^3.0.0
+  google_fonts: ^6.2.1
+  flutter_stripe: ^11.5.0
+  flutter_bloc: ^9.1.1
+  http: ^1.2.1
+  google_maps_flutter: ^2.7.0
+  flutter_polyline_points: ^2.0.0
+  flutter_animate: ^4.3.0
+  equatable: ^2.0.5
+  animation_wrappers: ^3.0.0
+  url_launcher: ^6.1.5
+  shared_preferences: ^2.2.3
+  image_picker: ^1.0.7
+  flutter_staggered_animations: ^1.1.1
+  lottie: ^3.3.1
+  cached_network_image: ^3.2.3
+  # buy_this_app:
+  #   git:
+  #     url: git@gitlab.com:verbosetech-flutter/buy-this-app-package.git
+  #     ref: master
+  firebase_core: ^3.13.1
+  firebase_analytics: ^11.4.6
+  fl_chart: ^1.0.0
+  shimmer: ^3.0.0
+  flutter_slidable: ^4.0.0
+  flutter_svg: ^2.1.0
+  dio: ^5.4.3+1
+  socket_io_client: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: fonts/ProductSans-Regular.ttf
+        - asset: fonts/ProductSans-Bold.ttf
+  assets:
+    - images/
+    - images/account/
+    - images/footermenu/
+    - images/payment/
+    - images/icons/
+  
+

@@ -1,0 +1,74 @@
+name: hungerz_delivery
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.8+9
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  flutter_phoenix: ^1.0.0
+  country_code_picker: ^3.0.0
+  google_fonts: ^6.2.1
+  flutter_bloc: ^9.1.0
+  mapbox_maps_flutter: ^2.8.0
+  google_maps_flutter: ^2.6.0
+  flutter_polyline_points: ^2.0.0
+  equatable: ^2.0.3
+  url_launcher: ^6.2.5
+  animation_wrappers: ^3.0.0
+  shared_preferences: ^2.2.3
+  socket_io_client: ^2.0.3
+  geocoding: ^2.1.1
+  geolocator: ^11.0.0
+  permission_handler: ^11.0.1
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+  firebase_database: ^10.3.8
+  firebase_analytics: ^10.7.4
+  fl_chart: ^0.66.0
+  share_plus: ^7.2.1
+  # google_navigation_flutter: ^0.6.1
+  # buy_this_app:
+  #   git:
+  #     url: git@gitlab.com:verbosetech-flutter/buy-this-app-package.git
+  #     ref: master
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "images/logo_delivery.png"
+
+flutter_launcher_name:
+  name: "Hungerz Delivery"
+
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: fonts/ProductSans-Regular.ttf
+        - asset: fonts/ProductSans-Bold.ttf
+
+  assets:
+    - images/
+    - images/account/
+    - images/icons/
+

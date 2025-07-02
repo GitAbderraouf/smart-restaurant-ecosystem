@@ -1,0 +1,39 @@
+# Fichiers générés par les IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Fichiers de dépendances Node.js
+backend/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Fichiers de build et de cache Flutter/Dart
+mobile-apps/**/build/
+mobile-apps/**/.dart_tool/
+mobile-apps/**/.pub-cache/
+mobile-apps/**/.flutter-plugins
+mobile-apps/**/.flutter-plugins-dependencies
+
+# Fichiers spécifiques aux plateformes
+mobile-apps/**/*.iml
+mobile-apps/**/.metadata
+mobile-apps/**/ios/Pods/
+mobile-apps/**/ios/Podfile.lock
+mobile-apps/**/ios/.symlinks/
+mobile-apps/**/ios/Flutter/App.framework
+mobile-apps/**/ios/Flutter/engine.xcframework
+
+# Fichiers de log et de configuration locale
+.env
+*.log
+
+# Fichiers de configuration sensibles
+google-services.json
+**/google-services.json
+.env
+**/.env
